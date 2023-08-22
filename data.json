@@ -1,0 +1,26 @@
+[{
+    "emp_id": "14",
+    "Name": "Pranay",
+    "Age": 26
+},
+{
+    "emp_id": "12",
+    "Name": "Vishal",
+    "Age": 24,
+    "Location": ["Paris"],
+    "Cars": "Swift"
+},
+{
+    "emp_id": "12",
+    "Name": "Richa",
+    "Age": "20",
+    "Location": ["India"],
+    "Sallary": 60000
+},
+{
+    "emp_id": "12",
+    "Name": "Shanky",
+    "Age": "20",
+    "Location": ["DUBAI"]
+}
+]

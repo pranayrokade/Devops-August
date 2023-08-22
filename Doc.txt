@@ -1,0 +1,19 @@
+Nikita|arn:aws:iam::aws:policy/AmazonEC2FullAccess
+Aarohi|arn:aws:iam::aws:policy/AmazonS3FullAccess
+Neha|arn:aws:iam::aws:policy/AmazonEC2FullAccess
+Yash|arn:aws:iam::aws:policy/AmazonS3FullAccess
+Kajal|arn:aws:iam::aws:policy/AmazonEC2FullAccess
+
+
+
+
+
+
+
+aws iam create-user --user-name ${name}
+
+
+aws iam attach-user-policy --policy-arn ${polarn} --user-name ${name}
+
+
+aws iam delete-user --user-name ${name}

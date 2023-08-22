@@ -1,0 +1,10 @@
+pipeline             //Jenkinsfile always starts with keyword pipeline
+{
+    agent any        //agnet any means : any available executor
+    stages           // it contains all the stages
+    {
+        stage ('display hello')  //name of the stage
+        {steps                        //it tells jenkins what to do
+          { sh 'echo hi_jenkins' }}   //sh: executive the shell script/command
+    }
+}
